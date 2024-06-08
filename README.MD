@@ -27,8 +27,9 @@ cd templateFinanceiroBank
 
 2. Compile e execute o projeto:
 
+
 ```
-./mvnw clean install
+./mvnw clean package
 
 docker-compose up --build
 
