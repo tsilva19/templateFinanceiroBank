@@ -19,8 +19,21 @@ FinanceiroBank é uma aplicação financeira desenvolvida em Java Spring Boot qu
 - **AWS CLI**: Utilizado para configurar as credenciais AWS.
 
 ### Instalação
+1. Clone o repositório:
+```
+git clone https://github.com/tsilva19/templateFinanceiroBank.git
+cd templateFinanceiroBank
+```
 
+2. Compile e execute o projeto:
 
+```
+./mvnw clean install
+
+docker-compose up --build
+
+```
+#### A aplicação estará disponível em http://localhost:8080.
 
 ## Endpoints da API
 ### Cria uma nova transação Deposito ou Saque
