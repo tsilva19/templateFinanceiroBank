@@ -37,8 +37,8 @@ FinanceiroBank é uma aplicação financeira desenvolvida em Java Spring Boot qu
         ```
 
     - Response:
-        - 200.
-        - 500.
+        - 200
+        - 500
 
 
 2. Saque `POST /financeira/transacao`:
@@ -53,13 +53,13 @@ FinanceiroBank é uma aplicação financeira desenvolvida em Java Spring Boot qu
         ```
 
     - Response:
-        - 200.
-        - 500.
+        - 200
+        - 500
 
 ### Consulta Extrato
 1. EXTRATO `GET /financeira/extrato`:
    - Response:
-        - 200.
+        - 200
 
            ```
                [
