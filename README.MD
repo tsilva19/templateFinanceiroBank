@@ -18,6 +18,24 @@ FinanceiroBank é uma aplicação financeira desenvolvida em Java Spring Boot qu
 - **Docker Compose**: Orquestração de containers Docker.
 - **AWS CLI**: Utilizado para configurar as credenciais AWS.
 
+## 🏗️ Arquitetura da Aplicação
+
+- A aplicação  possui solicitação de transações bancarias  sendo gravadas em banco de dados  e também como arquivo do bucket s3
+- Tendo uma logica sobre o tipo de transação  o saldo é alterado
+
+![Arquitetura](docs/desenhoarquitetura.png)
+
+
+
+## 📖 Documentação da API
+
+A API possui uma interface Swagger para facilitar o uso:
+
+🔗 Acesse: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+![Swagger UI](docs/estudoFinanceiraBank.png)
+
+
 ### Instalação
 PRE REQUISITO CONFIGURE O AWS CLI PARA UTILIZAR O LOCALSTACK
 
